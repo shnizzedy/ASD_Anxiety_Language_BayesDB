@@ -33,22 +33,27 @@ source deactivate
 replacing `NickBayesDB` with your environment's name
 
 # Run
+
 1. In a terminal, make sure you're in your Anaconda environment and in the directory your notebook is in. If you're in a non-default environment, your terminal will show that environment's name in parentheses before your login, and your current directory will show after a colon after your login, eg:
 ```sh
 (NickBayesDB) shnizzedy: ~/ASD_Anxiety_Language_BayesDB$
 ```
 If you need to activate your environment, see [Environment](#environment) above.
 If you need to change directories, `cd` to the directory you need.
+
 2. In your terminal, type
 ```sh
 jupyter notebook
 ```
 to launch the Jupyter notebook environment in your browser.
+
 3. Click the `ASD_Anxiety_Language_BayesDB.ipynb` notebook to launch that notebook.
+
 4. When you're done,
-  1. Close your Jupyter browser tabs.
-  2. Press `[Ctrl]+c` in your terminal to shutdown your Jupyter server
-  3. In your terminal, type
+
+    1. Close your Jupyter browser tabs.
+    2. Press `[Ctrl]+c` in your terminal to shutdown your Jupyter server
+    3. In your terminal, type
 ```sh
 source deactivate
 ```
