@@ -5,7 +5,6 @@
 ```sh
 docker pull probcomp/notebook
 ```
-4. Edit `docker-compose.yml`
 
 # Environment
 1. Start by running the following command in a terminal:
