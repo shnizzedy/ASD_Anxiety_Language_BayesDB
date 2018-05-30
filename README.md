@@ -1,5 +1,3 @@
-The probcomp stack is between versions, so we'll use the bleeding-edge
-
 # Setup
 1. Download and install [Docker](https://docs.docker.com/install/#supported-platforms)
 2. [Test](https://docs.docker.com/get-started/#test-docker-version) your Docker installation.
@@ -14,10 +12,10 @@ docker pull probcomp/notebook
 ```sh
 docker-compose up
 ```
-4. When you're done,
-  1. Close your Jupyter browser tabs.
-  2. Press `[Ctrl]+c` in the same terminal to kill the Jupyter server.
-  3. Close out by running the following command in a terminal:
+2. When you're done,
+    1. Close your Jupyter browser tabs.
+    2. Press `[Ctrl]+c` in the same terminal to kill the Jupyter server.
+    3. Close out by running the following command in a terminal:
 ```sh
 docker-compose down
 ```
