@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  notebook:
+    image: probcomp/notebook
+    ports:
+      - 8888:8888
+    hostname: ${USER}-notebook
+    volumes:
+      - './notebooks:/home/jovyan/notebooks'
